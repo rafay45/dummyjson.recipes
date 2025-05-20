@@ -867,14 +867,15 @@ footer {
 }
 
 .contactus>.social>.box-13 {
-    width: 2.5vw;
-    height: 5.5vh;
+    width: 40px;
+    height: 38px;
     background-color: #FFC300;
     border: 1px solid;
     border-radius: 100px;
     border: none;
-    text-align: center;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lastpara {
@@ -922,6 +923,7 @@ footer {
 }
 
 #recipess::-webkit-scrollbar-thumb:hover {
+    background: #FFC300;
     cursor: pointer;
 }
 

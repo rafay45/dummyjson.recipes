@@ -902,7 +902,6 @@ function info(recipesImage) {
             }
         }
     }
-
 }
 function hide() {
     chartsGet.style.display = "none"
